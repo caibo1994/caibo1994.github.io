@@ -1,0 +1,223 @@
+.nav {
+	height: 60px;
+	background-color: #fff;
+	line-height: 60px;
+	overflow: hidden;
+}
+.nav-logo {
+	float: left;
+}
+.nav-logo img {
+	vertical-align: middle;
+	margin-right: 15px;
+}
+.nav-logo a {
+	text-indent: -9999px;
+}
+.nva-fl {
+	float: left;
+}
+.nva-fl li {
+	float: left;
+}
+.nva-fl li a {
+	display: block;
+	height: 70px;
+	padding: 0 10px;
+	font-size: 14px;
+	color: #333;
+	background-color: #fff;
+}
+.nva-fl li a:hover {
+	background-color: #31c27d;
+	color: #fff;
+}
+.nva-fl .current {
+	background-color: #31c27d;
+	color: #fff;
+}
+.nav-fr {
+	position: relative;
+	float: right;
+}
+.nav-fr li {
+	float: left;
+	margin-right: 15px;
+}
+.nav-fr li input {
+	outline: none;
+	width: 155px;
+	height: 24px;
+	border: 1px solid #ccc;
+	color: #999;
+	font-size: 12px;
+	padding-left: 10px;
+}
+.nav-fr li img {
+	position: absolute;
+	top: 27px;
+	left: 138px;
+	cursor: pointer;
+}
+.nav-fr .lvzuan  {
+	display: inline-block;
+	/*display: block;*/
+	width: 95px;
+	height: 24px;
+	border: 1px solid #ccc;
+	background-color: #2fc17a;
+	text-align: center;
+	line-height: 24px;
+	font-size: 12px;
+	color: #fff;
+	/*margin-top: 30px;*/
+}
+.nav-fr .kaitong {
+	display: inline-block;
+	width: 78px;
+	height: 24px;
+	border: 1px solid #ccc;
+	line-height: 24px;
+	text-align: center;
+	font-size: 12px;
+}
+
+.contentt {
+	background: url(../img/10.jpg) 0 0 no-repeat;
+}
+.content {
+	padding-top: 50px;
+	height: 500px;
+}
+.content h3 {
+	margin: auto;
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+	font-weight: 400;
+}
+.content-nav {
+	position: relative;
+	margin: auto;
+	width: 400px;
+	padding-left: 65px;
+}
+.content-nav li {
+	text-align: center;
+	float: left;
+	margin: 20px;
+}
+.content-nav .more {
+	position: absolute;
+	top: 0;
+	right: -390px;
+	margin: 20px;
+}
+.con-music {
+	/*margin-top: 50px;*/
+}
+.con-music li {
+	width: 300px;
+	float: left;
+}
+.con-music li img {
+	width: 100%;
+}
+.con-music li h4,
+.hot li h4 {
+	margin: auto;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.con-music li span,
+.hot-music li span {
+	display: block;
+	text-align: center;
+	width: 60px;
+	margin: auto;
+}
+.hot {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.hot h3{
+	text-align: center;
+	font-size: 26px;
+	font-weight: 400;
+	color: #333;
+	margin-bottom: 50px;
+}
+.hot li {
+	float: left;
+	height: 400px;
+	background-color: #333333;
+}
+.hot-music li span {
+	width: 100px;
+}
+.hot .crueent {
+	background-color: #414141;
+}
+.mv .contentt {
+	background: #e6e6e6;
+	height: 480px;
+}
+.mv .content h3 {
+	color: #333;
+}
+.mv .con-music h4 {
+	color: #666;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding: 0 10px;
+}
+.mv .content-nav li {
+
+}
+.mv .content-nav li a {
+	color: #999;
+}
+.mv .content-nav li .current {
+	color: #333;
+}
+.foot {
+	background-color: #333333;
+	/*height: 500px;*/
+	padding-top: 50px;
+}
+
+.help h4 {
+	margin-bottom: 20px;
+}
+.help ul {
+	width: 
+}
+.help .help-tubiao {
+	width: 37px;
+	height: 37px;
+	background:  url(../img/footer.png) -2px 0 no-repeat;
+}
+.help .help-tubiao:hover {
+	background: url(../img/footer.png) -0px -35px no-repeat;
+}
+.help-tu li {
+	float: left;
+	margin-right: 30px;
+}
+.help-sec {
+	width: 300px;
+	float: left;
+	margin-left: 100px;
+}
+.contact {
+	margin-top: 100px;
+	margin-bottom: 30px;
+}
+.contact p {
+	text-align: center;
+	margin-top: 20px;
+}
